@@ -31,7 +31,7 @@ document.getElementById("log-btn").addEventListener('click', function(){
   .then((userCredential) => {
     const user = userCredential.user;
     
-      window. location. href = "categories.html";
+      window. location. href = "./HTML/categories.html";
 
   })
   .catch((error) => {
